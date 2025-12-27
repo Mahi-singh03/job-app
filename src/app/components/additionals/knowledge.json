@@ -1,0 +1,89 @@
+{
+  "clinicName": "Manjit Health Care",
+  "tagline": "Acupressure & Advanced Physiotherapy Centre with Laser Technology",
+  "contact": {
+    "phone": ["94174-03743", "70098-60754"],
+    "address": "VPO Jangliana, Near Bham (Hoshiarpur)",
+    "email": "",
+    "website": ""
+  },
+  "doctor": {
+    "name": "Dr. Manjit Singh",
+    "qualifications": [
+      "B.E.M.S.",
+      "Diploma in Acupressure",
+      "D. Pharma (Ayur)",
+      "Diploma in CMS & ED",
+      "Reiki Grandmaster",
+      "Diploma in Physiotherapy"
+    ]
+  },
+  "services": {
+    "treatments": [
+      "Arthritis",
+      "Cervical",
+      "Allergy",
+      "Disc Slip",
+      "Joint Pain",
+      "Back Pain",
+      "Gas",
+      "Teeth Issues",
+      "Spondylitis",
+      "Sciatica",
+      "Metapain",
+      "Knee Pain",
+      "Shoulder Pain",
+      "Liver Issues",
+      "Breathing Issues",
+      "Headache",
+      "Nerves Weakness",
+      "Paralysis",
+      "Piles",
+      "Sexual Weakness"
+    ],
+    "therapies": [
+      "Acupressure Therapy",
+      "Physiotherapy",
+      "Laser Therapy",
+      "Reiki Healing",
+      "Sports Injury Treatment",
+      "Children Physiotherapy",
+      "Joint Pain Therapy",
+      "Cervical & Back Pain Therapy",
+      "Stress & Nerve Weakness Therapy"
+    ],
+    "specialCare": [
+      "Men Sexual Weakness Treatment",
+      "Nerve Weakness / Kamzori Ilaaj",
+      "Back & Knee Pain Relief",
+      "Shoulder & Joints Pain",
+      "Sports Injury Care"
+    ]
+  },
+  "highlights": [
+    "Advanced Physiotherapy",
+    "Laser Technology Treatment",
+    "Acupressure with Modern Techniques",
+    "Reiki Healing Support",
+    "Effective for Joint, Back & Nerve Issues",
+    "Affordable Treatment Plans"
+  ],
+  "faqs": [
+    {
+      "q": "Do you offer physiotherapy with laser technology?",
+      "a": "Yes, advanced physiotherapy with laser technology is available for faster recovery."
+    },
+    {
+      "q": "Do you treat sexual weakness?",
+      "a": "Yes, treatment for sexual & nerve weakness (Kamzori) is provided."
+    },
+    {
+      "q": "Is children physiotherapy available?",
+      "a": "Yes, special physiotherapy sessions for children are offered."
+    },
+    {
+      "q": "Do you treat sports injuries?",
+      "a": "Yes, sports injury physiotherapy and recovery programs are available."
+    }
+  ]
+}
