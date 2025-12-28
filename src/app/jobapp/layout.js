@@ -1,11 +1,12 @@
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
-import ProtectedAdminRoute from "@/app/components/additionals/protectedAdminRoute"
+import ScrollToTop from "@/app/components/additionals/scrollToTop";
+import { UserProvider } from "@/app/components/additionals/userContext"; 
+import ProtectedAdminRoute from "@/app/components/additionals/protectedAdminRoute"; 
 
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
-  subsets: ["latin"], 
+  subsets: ["latin"],
 });
 
 const geistMono = Geist_Mono({
@@ -14,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Job App",
-  description: "This is a job application tracking app",
+  title: "Admin Section",
+  description: "Admin Section",
 };
 
 export default function RootLayout({ children }) {
@@ -24,9 +25,14 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <ProtectedAdminRoute>
-          {children}
-        </ProtectedAdminRoute>
+        <UserProvider>
+          <ProtectedAdminRoute>
+            <ScrollToTop />
+           
+            <main className="pt-20 md:pt-[135px]">{children}</main>
+            
+          </ProtectedAdminRoute>
+        </UserProvider>
       </body>
     </html>
   );
